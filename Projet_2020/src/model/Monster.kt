@@ -18,7 +18,6 @@ data class Monster(
             override fun attacker(elt:Entite,degats:Int) {
                 super.attacker(elt,degats)
                 this.vie+=degats
-                this.totalVie+=degats
                 elt.vie-=degats
             }
 

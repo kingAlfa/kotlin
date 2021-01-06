@@ -203,7 +203,7 @@ object GameObjet {
 
     /**
      * Test if the given direction is valid
-     * @return Boolean 
+     * @return Boolean
      * @param direction the given direction
      */
     fun validDirection(direction: String): Boolean {
