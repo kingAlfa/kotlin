@@ -5,7 +5,7 @@ import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
 
 const val portArgName= "--server.port"
-const val defaultport = 7000
+const val defaultport = 8000
 
 fun main(args:Array<String>){
     val portCOnfigured = args.isNotEmpty() && args[0].startsWith(portArgName)
